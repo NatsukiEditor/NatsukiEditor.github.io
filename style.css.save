@@ -1,0 +1,43 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+} 
+
+h1 {
+    font-size: 50px;
+}
+
+h1 {
+
+    font-size: 50px; 
+    border: 2px solid white;
+    border-radius:15px;
+    padding:20px;
+
+}
+
+button {
+
+     color:red;
+     background:black;
+
+}
+
+button  {
+  
+      color:black;
+      background:white;
+}
+
+button:hover {
+
+   background-color:purple;
+   color:black;
+
+}
+
+
+
+button

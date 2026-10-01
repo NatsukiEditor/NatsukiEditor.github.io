@@ -1,0 +1,63 @@
+body {
+    background: black;
+    color: purple;
+    text-align: center;
+    font-family: Arial;
+}
+
+    
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+h1 {
+
+    font-size: 50px; 
+    border: 2px solid white;
+    border-radius:15px;
+    padding:20px;
+
+}
+
+button {
+
+     color:white;
+     background:black;
+
+}
+
+button  {
+  
+      color:black;
+      background:white;
+}
+
+button:hover {
+
+   background-color:purple;
+   color:black;
+
+}
+
+
+
+.perfil {
+
+    display: flex;
+
+
+  align-items: center;
+
+   gap: 20px;
+
+}
+
+
+  .perfil img {
+
+    width: 100px;
+
+}
