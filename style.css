@@ -154,3 +154,15 @@ body {
  transition: opacity 1s;
 
 }
+
+
+
+img {
+
+ position: relative;
+
+ top: -600px;
+
+ left:600px;
+
+}
