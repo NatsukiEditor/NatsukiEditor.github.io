@@ -13,3 +13,12 @@ function mensagem() {
 document.getElementById("texto")
 
 } 
+
+
+
+function mensage() {
+
+ document.getElementById("mensagem").textContent = "Olá criador de conteúdo, seja bem vindo!";
+
+
+}
