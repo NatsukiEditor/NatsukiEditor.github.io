@@ -130,3 +130,27 @@ body {
   font-size: 30px;
 
 }
+
+
+ #mensagem {
+
+ opacity: 0;
+ transition: opacity 1s;
+
+}
+
+ #mensagem.aparecer {
+
+ opacity: 1;
+
+}
+
+
+
+#mensagem.desaparecer {
+
+ opacity: 0;
+
+ transition: opacity 1s;
+
+}
