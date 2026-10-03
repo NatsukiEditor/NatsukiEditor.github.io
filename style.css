@@ -10,12 +10,12 @@ body {
 
 
 h1 {
-    font-size: 200px;
+    font-size: 1000px;
 }
 
 h1 {
 
-    font-size: 50px; 
+    font-size: 100px; 
     border: 0px solid white;
     border-radius:200px;
     padding:20px;
@@ -51,7 +51,7 @@ button:hover {
 
   align-items: center;
 
-   gap: 100px;
+   gap: 50px;
 
 }
 
@@ -74,19 +74,29 @@ body {
 
 
 
-    background: linear-gradient(
+   background: radial-gradient(
 
-     120deg,
-     #120018,
 
-     #001a33,
-     #002b24,
-     #331500,
-    #220022,
-    #ff0066
+  circle at 30% 40%,
 
-);
 
+ #8a2be2,
+
+ transparent 40%
+
+),
+
+radial-gradient(
+
+ circle at 70% 60%,
+
+ #00bfffaa,
+
+ transparent 40%
+
+),
+
+#080014;
 
    background-size: 400% 400%;
 
@@ -161,8 +171,8 @@ img {
 
  position: relative;
 
- top: -600px;
+ top: 50px;
 
- left:290px;
+ left:1000px;
 
 }
