@@ -22,3 +22,24 @@ function mensage() {
 
 
 }
+
+
+function mensage() {
+
+ let mensagem = document.getElementById("mensagem");
+
+ mensagem.textContent = "Olá criador de conteúdo!";
+
+  mensagem.classList.add("aparecer");
+
+ setTimeout(function() {
+
+  mensagem.classList.remove("aparecer");
+
+  mensagem.classList.add("desaparecer");
+
+  }, 2000);
+
+}
+
+
