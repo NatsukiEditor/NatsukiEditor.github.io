@@ -74,33 +74,42 @@ body {
 
 
 
-   background: radial-gradient(
+   background:
 
+ radial-gradient(
 
-  circle at 30% 40%,
-
-
- #8a2be2,
-
- transparent 40%
+ ellipse 80% 50% at 10% 50%,
+ #8a2be2dd,
+ transparent 70%
 
 ),
 
-radial-gradient(
+ radial-gradient(
 
- circle at 70% 60%,
-
- #00bfffaa,
-
- transparent 40%
+ ellipse 80% 50% at 90% 50%,
+ #00bfffdd,
+ transparent 70%
 
 ),
 
-#080014;
+ radial-gradient(
 
-   background-size: 400% 400%;
+ ellipse 100% 60% at 50% 50%,
+ #ff00aa88,
+ transparent 75%
 
-   animation: mist 15s ease-in-out infinite;
+),
+
+ #080014;
+
+
+
+
+ 
+
+   background-size: 200% 200%;
+
+   animation: mist 35s ease-in-out infinite;
 
 }
 
@@ -112,28 +121,39 @@ radial-gradient(
 
 }
 
- 50% {
+ 25% {
 
-   background-position: 100% 50%;
+   background-position: 100% 45%;
 
 }
 
-  100% {
+  50% {
 
-   background-position: 0% 50%;
+   background-position: 50% 55%;
 
   }
 
 
 
 
-150% {
+75% {
 
- background-position: 0% 10%;
+ background-position: 0% 45%;
+
+}
+
+
+100% {
+
+ background-position: 100% 50%;
+
+ }
 
 }
 
-}
+
+
+
 
  #mensagem {
 
