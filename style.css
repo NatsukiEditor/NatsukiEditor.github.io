@@ -1,8 +1,8 @@
 body {
     background: black;
-    color: purple;
+    color:purple;
     text-align: center;
-    font-family: Arial;
+    font-family: Audiowide;
 }
 
     
@@ -10,14 +10,14 @@ body {
 
 
 h1 {
-    font-size: 50px;
+    font-size: 200px;
 }
 
 h1 {
 
     font-size: 50px; 
     border: 0px solid white;
-    border-radius:15px;
+    border-radius:200px;
     padding:20px;
 
 }
@@ -51,7 +51,7 @@ button:hover {
 
   align-items: center;
 
-   gap: 50px;
+   gap: 100px;
 
 }
 
