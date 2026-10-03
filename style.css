@@ -129,22 +129,20 @@ radial-gradient(
 
 150% {
 
- background-position: 0% 10%
+ background-position: 0% 10%;
 
 }
 
-#mensagem {
-
- color: blue;
-
-  font-size: 30px;
-
 }
-
 
  #mensagem {
 
+  color: black;
+
+ font-size: 50px;
+
  opacity: 0;
+
  transition: opacity 1s;
 
 }
@@ -155,15 +153,14 @@ radial-gradient(
 
 }
 
-
-
-#mensagem.desaparecer {
+ #mensagem.desaparecer {
 
  opacity: 0;
 
- transition: opacity 1s;
-
 }
+
+
+
 
 
 
@@ -171,8 +168,15 @@ img {
 
  position: relative;
 
- top: 50px;
+ top: -700px;
 
- left:1000px;
+ left:300px;
+
+}
+
+
+#mensagem {
+
+ color: black;
 
 }
