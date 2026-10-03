@@ -90,11 +90,11 @@ body {
 
    background-size: 400% 400%;
 
-   animation: prisma 15s ease-in-out infinite;
+   animation: mist 15s ease-in-out infinite;
 
 }
 
-  @keyframes prisma {
+  @keyframes mist {
 
    0% {
 
@@ -114,7 +114,7 @@ body {
 
   }
 
-}
+
 
 
 150% {
