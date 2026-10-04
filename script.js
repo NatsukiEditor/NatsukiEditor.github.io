@@ -16,13 +16,6 @@ document.getElementById("texto")
 
 
 
-function mensage() {
-
- document.getElementById("mensagem").textContent = "Olá criador de conteúdo, seja bem vindo!";
-
-
-}
-
 
 function mensage() {
 
@@ -41,5 +34,3 @@ function mensage() {
   }, 2000);
 
 }
-
-
